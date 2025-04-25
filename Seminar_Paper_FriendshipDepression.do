@@ -18,7 +18,7 @@ global easywave4 "${output_folder}/easywave4.dta"
 
 	* 	Open wave4 and keep wave4 variables
 	
-	*use 		${wave4}/sharew4_rel8-0-0_gv_networks.dta, clear
+	*use 		${wave4}/PATH, clear
 	*gen 		wave = 4
 	*keep 		mergeid wave friendnet friend_contact very_close
 	*save 		${output_folder}/wave4_transformed.dta, replace
