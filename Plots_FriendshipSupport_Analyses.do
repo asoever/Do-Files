@@ -1,3 +1,7 @@
+* Do - freundschaftliche Unterstüzung-Depression-Einsamkeit
+
+use "/Users/PATH/TO/DATAFILE.dta" /* Do-File uses sensitive data from the German Ageing Survey (DEAS), which can't be shared without proper authorization. */
+
 * Verteilung der Variablen Depressivität 
 hist depressiv_17, frequency 
 * Oder 
