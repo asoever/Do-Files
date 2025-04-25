@@ -1,1 +1,14 @@
 touch .gitignore
+
+# Ignore all Stata-Data and Output-Files
+*.dta
+*.csv
+*.xls
+*.xlsx
+*.pdf
+*.log
+*.gph
+
+/Data/
+/Data_output/
+
