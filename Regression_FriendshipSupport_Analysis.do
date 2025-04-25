@@ -498,9 +498,9 @@ regress ln_depressiv_17 Rat_SN Trost_SN HilfeG_SN HilfeE_SN FinG_SN FinE_SN Män
 regress depressiv_17 Rat_Freunde
 regress depressiv_17 Rat_Freunde Männlich 
 regress depressiv_17 Rat_Freunde Männlich Alleinstehend 
-regress depressiv_17 Rat_Freunde Männlich Alleinstehend anzphy_17
 regress depressiv_17 Rat_Freunde Männlich Alleinstehend anzphy_17 
-regress depressiv_17 Rat_Freunde Männlich alter_17 Alleinstehend bildung4_17 
+regress depressiv_17 Rat_Freunde Männlich Alleinstehend anzphy_17 alter_17
+regress depressiv_17 Rat_Freunde Männlich Alleinstehend anzphy_17 alter_17 bildung4_17 
 
 
 //////////////////Fazit: 
