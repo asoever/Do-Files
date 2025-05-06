@@ -25,10 +25,10 @@ global easywave4 "${output_folder}/easywave4.dta"
 	
 	* merge easydata and wave4 
 	
-	*use         ${output_folder}/wave4_transformed.dta, clear 
-	*merge       1:1 mergeid wave using ${easy}/easySHARE_rel8-0-0.dta
+	*use         ${output_folder}/wave4_transformed.format, clear 
+	*merge       1:1 mergeid wave using ${easy}/data.format
 	*drop 		if wave!=4
-	*save        ${output_folder}/easywave4.dta, replace
+	*save        ${output_folder}/data.format, replace
 	
 	**Open easywave4
     use        ${easywave4}, clear
